@@ -41,17 +41,56 @@ This platform provides an interactive workspace for exploring summaries of cell 
 ## Walkthrough
  
 > **Estimated time:** ~5 minutes for the full workflow.
+> Application might crash during the workshop, please **Restart App** if you face any issues.
 
 ### Step 1: Load the data
  
 **Goal:** Upload the .rds file.
  
-1. Go to the **Data** tab.
-2. Click **Browse** and select `ADD_FILE_NAME.rds`.
-3. Wait for the confirmation message.
-<!-- ![Step 1: Upload data](images/01.png) -->
-*Screenshot placeholder: `images/01.png`*
+1. Access the website link, stay on **Introduction** tab and select the **Load/Input Data** sub-tab.
+
+ ![Step 1: Upload data](images/01.png)
  
-> **Tip:** ADD a helpful note, e.g. large files can take up to a minute to load.
+2. Download `ifnb_demo_seurat.rds` using the **Input data** link in the Quick Links table.
+3. Click **Browse** and select the downloaded file. The progress bar above the button shows the upload from your computer and reads **Upload complete** when it finishes.
+   
+![Step 1: Browse and upload](images/03.png) 
+
+4. Click **Load Data**. A second progress bar tracks the loading. When it finishes, the message **✅ File uploaded: ifnb_demo_seurat.rds** appears.
+
+![Step 1: Load data](images/04.png) 
+   
+5. The app then switches automatically to the **Cell Summary Profile** tab, where you can continue with the analysis.
+ 
+> **Tip:** Files can take up to a minute to load.
+
+
+### Step 2: Cell Summary Profile
+ 
+**Goal:** Explore cell counts, clusters and conditions present in the cohort.
+ 
+1. Contains 3 sub-tabs, **Samples Description** tab shows data columns and values present in each data column. At glance review of cohort data.
+
+ ![Step 2.1: Sample Description](images/05.png)
+ 
+2. **Cell Summary** tab allows users to explore cell counts and percentages from any two data columns. Visual and tabular options to explore cell summaries.
+
+ ![Step 2.2: Cell Summary](images/06.png)
+
+3. In **Dimesionality Reduction Plots**, users can access PCA and UMAP to understanding cell clustering in the data
+   
+ ![Step 2.3: UMAP](images/07.png)
+
+4. Click **Browse** and select the downloaded file. The progress bar above the button shows the upload from your computer and reads **Upload complete** when it finishes.
+   
+![Step 1: Browse and upload](images/03.png) 
+
+4. Click **Load Data**. A second progress bar tracks the loading. When it finishes, the message **✅ File uploaded: ifnb_demo_seurat.rds** appears.
+
+![Step 1: Load data](images/04.png) 
+   
+5. The app then switches automatically to the **Cell Summary Profile** tab, where you can continue with the analysis.
+ 
+> **Tip:** 'Additional Option' feature is explained after Dot Plot Module.
  
 ---
