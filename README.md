@@ -49,8 +49,8 @@ This platform provides an interactive workspace for exploring summaries of cell 
 1. Go to the **Data** tab.
 2. Click **Browse** and select `ADD_FILE_NAME.rds`.
 3. Wait for the confirmation message.
-<!-- ![Step 1: Upload data](images/01_load_data.png) -->
-*Screenshot placeholder: `images/01_load_data.png`*
+<!-- ![Step 1: Upload data](images/01.png) -->
+*Screenshot placeholder: `images/01.png`*
  
 > **Tip:** ADD a helpful note, e.g. large files can take up to a minute to load.
  
