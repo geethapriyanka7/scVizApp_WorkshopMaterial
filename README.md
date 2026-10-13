@@ -25,7 +25,7 @@ This platform provides an interactive workspace for exploring summaries of cell 
 | Input data | [ifnb_demo_seurat.rds](https://drive.google.com/file/d/1ycQC9nTH_2LStd35xSLsVx-erHcFc0Q6/view?usp=sharing) |
 | Demo data | [`demo_data/`](demo_data/) |
 | Walkthrough tutorial | [`demo_data/README.md`](demo_data/README.md) |
-| Slides | [ADD SLIDES LINK](ADD_SLIDES_LINK) |
+| Slides | [WorkshopOct132026_GPYerradoddi](https://docs.google.com/presentation/d/1pVdZcJsbpzWTfyIQJItHzE6t_08-svKX/edit?usp=sharing&ouid=104169265426479626636&rtpof=true&sd=true) |
  
 ---
 ## Demo Data
