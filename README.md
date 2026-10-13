@@ -42,6 +42,7 @@ This platform provides an interactive workspace for exploring summaries of cell 
 ## Walkthrough
  
 > **Estimated time:** ~5 minutes for the full workflow.
+> 
 > Application might crash during the workshop, please **Restart App** if you face any issues.
 
 ## Step 1: Load the data
