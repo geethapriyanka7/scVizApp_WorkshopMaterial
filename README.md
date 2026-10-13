@@ -32,9 +32,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
  
 | File | Description | Size |
 |---|---|---|
-| `ifnb_demo_seurat.rds` | Seurat object, Control vs IFN-beta-stimulated | 83MB |
-| `demo_data/cell_type_markers.xlsx` | gene list with gene and geneType columns (used in Dot Plot module) | ADD |
-| `demo_data/REACTOME_INTERFERON_SIGNALING.v2026.1.Hs.gmt` | gene set for Module Scoring (used in Scoring module) | ADD |
+| `ifnb_demo_seurat.rds` | Seurat object, Control vs IFN-beta-stimulated | 53MB |
+| `demo_data/cell_type_markers.xlsx` | gene list with gene and geneType columns (used in Dot Plot module) | 9KB |
+| `demo_data/REACTOME_INTERFERON_SIGNALING.v2026.1.Hs.gmt` | gene set for Module Scoring (used in Scoring module) | 2KB |
  
 **Download:** click the file, then choose **Download raw file** (or use the download icon).
  
@@ -152,13 +152,21 @@ This platform provides an interactive workspace for exploring summaries of cell 
    | 3 | CD16Mono |
    | 4 | Bcells |
    | 5 | CD8Tcells |
+   | 6 | Tcells |
+   | 7 | NKcells |
+   | 8 | DCs |
+   | 9 | BcellsActv |
+   | 10,13 | Mks (Megakaryocytes) |
+   | 11,14 | pDCs |
+   | 12 | Eryth (Erythrocytes) |
 
    Continue through the remaining clusters. Clusters sharing a name are merged into one cell type.
-5. Enter a **New metadata column name** (for example `cellTypeAnnotation`) and click **Apply**.
+5. Go back to cell summary profile and now access **Additional Feature** option to annotate identified clusters based on comparative Dot Plot.
+6. Enter a **New metadata column name** (for example `cellTypeAnnotation`) and click **Apply**.
 
 ![Step 6: Rename clusters](images/17.png)
 
-6. The new column now appears in the Samples Description table and is available in every dropdown in the app.
+7. The new column now appears in the Samples Description table and is available in every dropdown in the app.
 
 ![Step 6: Updated sample description](images/18.png)
 
