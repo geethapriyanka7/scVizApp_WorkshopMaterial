@@ -44,9 +44,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 > **Estimated time:** ~5 minutes for the full workflow.
 > Application might crash during the workshop, please **Restart App** if you face any issues.
 
-### Step 1: Load the data
+## Step 1: Load the data
  
-**Goal:** Upload the .rds file.
+### **Goal:** Upload the .rds file.
  
 1. Access the website link, stay on **Introduction** tab and select the **Load/Input Data** sub-tab.
 
@@ -65,9 +65,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
  
 > **Tip:** Files can take up to a minute to load.
 
-### Step 2: Cell Summary Profile
+## Step 2: Cell Summary Profile
  
-**Goal:** Explore cell counts, clusters and conditions present in the cohort.
+### **Goal:** Explore cell counts, clusters and conditions present in the cohort.
  
 1. This tab contains 3 sub-tabs. **Samples Description** shows the data columns and the values present in each column, for an at-a-glance review of the cohort.
 
@@ -85,9 +85,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 > **Tip:** The **Additional Option** feature on the Samples Description tab is explained in Step 6, after the Dot Plot module.
 
-### Step 3: Violin Plots
+## Step 3: Violin Plots
 
-**Goal:** Check marker gene expression across clusters.
+### **Goal:** Check marker gene expression across clusters.
 
 1. Open the **Violin Plots** tab.
 2. In **Select Genes**, choose markers of interest (for example `CD3E`, `CD3D`, `CD4`, `CD8A`, `CD8B`, `PTPRC` for T cells).
@@ -97,9 +97,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 3: Violin plots](images/09.png)
 
-### Step 4: Feature Plots
+## Step 4: Feature Plots
 
-**Goal:** See where marker genes are expressed on the UMAP.
+### **Goal:** See where marker genes are expressed on the UMAP.
 
 1. Open the **Feature Plots** tab and select the same genes as in Step 3.
 2. Keep **Clusters to Visualize** as `seurat_clusters`. **Additional separation** can split the UMAP by condition.
@@ -110,9 +110,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 4: Viridis options](images/11.png)
 
-### Step 5: Dot Plots
+## Step 5: Dot Plots
 
-**Goal:** Use a cell type marker list to identify what each cluster is.
+### **Goal:** Use a cell type marker list to identify what each cluster is.
 
 1. Open the **Dot Plots** tab. Under **Choose gene selection source**, there are three options:
    - **From loaded file:** pick genes present in the Seurat object.
@@ -133,9 +133,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 5: Dot plot split by condition](images/15.png)
 
-### Step 6: Annotate clusters (Additional Option)
+## Step 6: Annotate clusters (Additional Option)
 
-**Goal:** Add a new metadata column with cell type names for each cluster.
+### **Goal:** Add a new metadata column with cell type names for each cluster.
 
 1. Go to **Cell Summary Profile** > **Samples Description** and click **Select** under **Additional Option**.
 2. In **Select metadata column**, choose `seurat_clusters`.
@@ -170,9 +170,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 6: Updated sample description](images/18.png)
 
-### Step 7: Module Scoring
+## Step 7: Module Scoring
 
-**Goal:** Score interferon signaling activity per cell and compare Control vs stimulated samples.
+### **Goal:** Score interferon signaling activity per cell and compare Control vs stimulated samples.
 
 1. Open the **Scoring** tab. Under **Choose gene selection source**, select **From file (with gene column)**.
 2. Click **Browse** and choose `demo_data/REACTOME_INTERFERON_SIGNALING.v2026.1.Hs.gmt`. Wait for **Upload complete**. (Excel, CSV, TXT and GMT files are accepted.)
@@ -181,9 +181,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 7: Module scoring](images/19.png)
 
-### Step 8: Differential Expression
+## Step 8: Differential Expression
 
-**Goal:** Find genes that change between stimulated and Control samples.
+### **Goal:** Find genes that change between stimulated and Control samples.
 
 1. Open the **DE Testing** tab.
 2. Set **Select Cluster for Differential Expression Testing** to `orig.ident`.
@@ -193,9 +193,9 @@ This platform provides an interactive workspace for exploring summaries of cell 
 
 ![Step 8: Differential expression](images/20.png)
 
-### Step 9: Export results
+## Step 9: Export results
 
-**Goal:** Save the new annotations for later use.
+### **Goal:** Save the new annotations for later use.
 
 1. Open the **Export/Download files** tab.
 2. Click **Download Metadata** to save the updated metadata table (including `cellTypeAnnotation`) as a TSV file.
